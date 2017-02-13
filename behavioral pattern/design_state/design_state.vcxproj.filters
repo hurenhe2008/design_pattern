@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C++">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="C">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="C++\Header Files">
+      <UniqueIdentifier>{81d299c8-2419-4845-bdca-004767bb9046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\Source Files">
+      <UniqueIdentifier>{510167d0-a93c-4a34-adc2-c41ed6a9d178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C\Header Files">
+      <UniqueIdentifier>{d2d5a994-fbe6-42af-a98d-ad77e5c10082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C\Source Files">
+      <UniqueIdentifier>{7f271da5-41e4-46cd-983d-88e0e73d5a10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C++\state.h">
+      <Filter>C++\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\state_mgr.h">
+      <Filter>C++\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\state_o1.h">
+      <Filter>C++\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\state_o2.h">
+      <Filter>C++\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\state_o3.h">
+      <Filter>C++\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C++\state_mgr.cpp">
+      <Filter>C++\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\state_o1.cpp">
+      <Filter>C++\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\state_o2.cpp">
+      <Filter>C++\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\state_o3.cpp">
+      <Filter>C++\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
