@@ -14,5 +14,8 @@ int main(void)
     q->use();
     q->eat();
 
+    delete q;
+    delete p;
+
     return 0;
 }
