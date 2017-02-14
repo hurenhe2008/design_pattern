@@ -84,6 +84,7 @@
     <ClInclude Include="product_o2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="product_o1.cpp" />
     <ClCompile Include="product_o2.cpp" />
     <ClCompile Include="factory.cpp" />
