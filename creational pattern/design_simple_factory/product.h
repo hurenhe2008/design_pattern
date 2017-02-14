@@ -3,6 +3,7 @@
 
 class product
 {
+public:
     virtual void use() = 0;
 
     virtual void eat() = 0;
