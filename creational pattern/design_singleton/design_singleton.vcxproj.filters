@@ -1,17 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="C">
+      <UniqueIdentifier>{61a50525-b4ca-4387-b51a-90b0c1c32b54}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="C++">
+      <UniqueIdentifier>{c97b2ff4-1498-45f2-a56d-3661cdf7ca34}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="C\Header Files">
+      <UniqueIdentifier>{48b8b4be-4829-4395-909a-b39ae3f27980}</UniqueIdentifier>
     </Filter>
+    <Filter Include="C\Source Files">
+      <UniqueIdentifier>{c55e96cd-4b1c-4415-b837-766f4fdc0ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\Header Files">
+      <UniqueIdentifier>{483a58c2-7f30-477c-b7be-5caa26fe2ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++\Source Files">
+      <UniqueIdentifier>{12a67b20-014c-4553-a31c-24cb7bf735f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C\csingleton.h">
+      <Filter>C\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\singleton.h">
+      <Filter>C++\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\singleton_tmp.h">
+      <Filter>C++\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C\csingleton.c">
+      <Filter>C\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\singleton.cpp">
+      <Filter>C++\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

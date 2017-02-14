@@ -38,6 +38,15 @@
     <ClInclude Include="C++\state_o3.h">
       <Filter>C++\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C\cstate.h">
+      <Filter>C\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C\cstate_handle.h">
+      <Filter>C\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C\cstate_mgr.h">
+      <Filter>C\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C++\state_mgr.cpp">
@@ -51,6 +60,12 @@
     </ClCompile>
     <ClCompile Include="C++\state_o3.cpp">
       <Filter>C++\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C\cstate_handle.c">
+      <Filter>C\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C\cstate_mgr.c">
+      <Filter>C\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
