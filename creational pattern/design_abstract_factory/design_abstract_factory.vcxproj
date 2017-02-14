@@ -78,6 +78,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="factory.h" />
+    <ClInclude Include="factoryO1.h" />
+    <ClInclude Include="factoryO2.h" />
+    <ClInclude Include="productA.h" />
+    <ClInclude Include="productA1.h" />
+    <ClInclude Include="productA2.h" />
+    <ClInclude Include="productB.h" />
+    <ClInclude Include="productB1.h" />
+    <ClInclude Include="productB2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="factoryO1.cpp" />
+    <ClCompile Include="factoryO2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="productA1.cpp" />
+    <ClCompile Include="productA2.cpp" />
+    <ClCompile Include="productB1.cpp" />
+    <ClCompile Include="productB2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
