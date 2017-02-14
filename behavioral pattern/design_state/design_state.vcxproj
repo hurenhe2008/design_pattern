@@ -94,8 +94,10 @@
     <ClCompile Include="C++\state_o1.cpp" />
     <ClCompile Include="C++\state_o2.cpp" />
     <ClCompile Include="C++\state_o3.cpp" />
+    <ClCompile Include="cmain.cpp" />
     <ClCompile Include="C\cstate_handle.c" />
     <ClCompile Include="C\cstate_mgr.c" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,7 +6,7 @@
 struct state_mgr_s;
 typedef struct state_mgr_s state_mgr_t;
 
-void handle(void *data);
+void handle(const void *data);
 
 void change_state();
 

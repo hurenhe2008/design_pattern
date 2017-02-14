@@ -43,7 +43,7 @@ static state_t* look_up(state_type_t type)
 }
 
 
-void handle(void *data)
+void handle(const void *data)
 {
     state_t *p = statemgr.m_cur_state_handle;
 
