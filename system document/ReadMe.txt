@@ -37,5 +37,6 @@
 [other design pattern]
 		concurrency pattern          [并发型模式]
 		threadpool pattern           [线程池模式]
+		multi-provider-comsumer      [多生产者多消费者模式]
 		
 		
